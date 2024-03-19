@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="icon" href="./images/favicon/logo.png"  sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<div class="font-Inter bg-slate-100">
+    <body >
+        <header>
+            <div class="grid justify-center bg-[#001965]">
+                <div class="flex w-[1170px] ">
+                    <div class="flex items-center">
+                        <a href="/">
+                            <p class="font-semibold text-[32px] leading-[38.73px] text-white">Doctorcare</p>
+                        </a>
+                    </div>
+                    <div class="flex items-center gap-[21px] ml-[80px]">
+                        <a href="./Doctor.html" class="py-[15px] px-[15px]">
+                            <p class="font-semibold text-[15px] leading-[18px] text-white">Đặt lịch khám</p>
+                        </a>
+                        <a href="./Advise_online.html" class="py-[15px] px-[15px]">
+                            <p class="font-semibold text-[15px] leading-[18px] text-white">Tư vấn trực tiếp</p>
+                        </a>
+                        <a href="./Store.html" class="py-[15px] px-[15px]">
+                            <p class="font-semibold text-[15px] leading-[18px] text-white">Cửa hàng</p>
+                        </a>
+                        <a href="./News.html" class="py-[15px] px-[15px]">
+                            <p class="font-semibold text-[15px] leading-[18px] text-white">Tin y tế</p>
+                        </a>
+                    </div>
+                    <div class="flex items-center my-[12px] ml-[20px] h-[42px] bg-white rounded-[11px] gap-[5px] w-[230px]">
+                        <div class="ml-[12px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[17px] h-[17px]">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg>
+                        </div>
+                        <input type="text" name="" id="" class="outline-0 h-[30px]  font-medium text-[13px] leading-[15px] text-[#817979]" placeholder="Tìm kiếm bác sĩ, hỗ trợ,...">
+                    </div>
+                    <a href="./Login.html" class="flex items-center ml-[30px]">
+                        <button class="h-[42px] bg-white rounded-[9px] px-[10px]">
+                            <p class="text-black font-bold text-[15px] leading-[18px]">Đăng nhập</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="relative h-[539px]">
+            <img class="absolute top-0 h-[539px] w-full" src="./images/home/slider.png" alt="">
+            <div class="grid  w-full absolute h-full">
+                <div class="w-[1170px] mt-[30px] ml-[60px]">
+                    <div class="grid gap-[14px] ">
+                        <p class="font-semibold text-[48px] leading-[50px] text-simple">Ứng dụng đặt khám</p>
+                        <p class="font-normal text-[24px] leading-[30px] text-simple">Đặt khám với hơn 475 bác sĩ, 25 bệnh viện, 50 phòng khám <br>
+                            trên Foryou để có số thứ tự và khung giờ khám trước.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="doctor grid justify-center mt-[51px]">
+            <div class="grid gap-[10px] text-center">
+                <p class="font-semibold text-[32px] leading-[39px] text-simple">Đặt lịch khám trực tuyến</p>
+                <p class="font-normal text-[16px] leading-[20px] text-[#7A7373]">Uy tín - Dễ dàng</p>
+            </div>
+            <div class="relative flex w-[1170px] mt-[14px] h-[80px]">
+                <div class="absolute left-0">
+                    <p class="font-semibold text-[24px] leading-[30px] text-[#000000]">Đặt khám bác sĩ</p>
+                </div>
+                <div class="absolute right-0">
+                    <a href="./Doctor.html" class="bg-[#3B82F6] flex py-[14px] px-[17px] gap-[20px] rounded-[25px]">
+                        <p class="font-semibold text-[16px] leading-[20px] text-white">Xem thêm</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-12 gap-[30px] w-[1170px]">
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="grid justify-center mt-[16px]">
+                        <img class="h-[117px] w-[117px] " src="./images/home/people-01.png" alt="">
+                    </div>
+                    <p class="font-medium mt-[20px] text-center">BS.CK 2 Phúc Linh</p>
+                    <div class="grid gap-[4px] mt-[8px] text-center text-simple font-light text-[15px] leading-[18px]">
+                        <p>Cơ xương khớp </p>
+                        <p>Bệnh viện Chợ Rẫy</p>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[31px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="grid justify-center mt-[16px]">
+                        <img class="h-[117px] w-[117px] " src="./images/home/people-02.png" alt="">
+                    </div>
+                    <p class="font-medium mt-[20px] text-center">BS.CK 2 Thu Huyền</p>
+                    <div class="grid gap-[4px] mt-[8px] text-center text-simple font-light text-[15px] leading-[18px]">
+                        <p>Sản phụ khoa - Ung bướu </p>
+                        <p>Bệnh viện Chợ Rẫy</p>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[31px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="grid justify-center mt-[16px]">
+                        <img class="h-[117px] w-[117px] " src="./images/home/people-03.png" alt="">
+                    </div>
+                    <p class="font-medium mt-[20px] text-center">BS.CK 2 Thái Lộc</p>
+                    <div class="grid gap-[4px] mt-[8px] text-center text-simple font-light text-[15px] leading-[18px]">
+                        <p>Sản phụ khoa   </p>
+                        <p>Bệnh viện Hùng Vương</p>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[31px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="grid justify-center mt-[16px]">
+                        <img class="h-[117px] w-[117px] " src="./images/home/people-04.png" alt="">
+                    </div>
+                    <p class="font-medium mt-[20px] text-center">BS.CK 2 Anh Tuấn</p>
+                    <div class="grid gap-[4px] mt-[8px] text-center text-simple font-light text-[15px] leading-[18px]">
+                        <p>Nhi khoa </p>
+                        <p>Bệnh viện Nhi Đồng 1</p>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[31px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hospital grid justify-center mt-[51px]">
+            <div class="relative flex w-[1170px] mt-[14px] h-[80px]">
+                <div class="absolute left-0">
+                    <p class="font-semibold text-[24px] leading-[30px] text-[#000000]">Đặt khám bệnh viện</p>
+                </div>
+                <div class="absolute right-0">
+                    <a href="./Doctor.html" class="bg-[#3B82F6] flex py-[14px] px-[17px] gap-[20px] rounded-[25px]">
+                        <p class="font-semibold text-[16px] leading-[20px] text-white">Xem thêm</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-12 gap-[30px] w-[1170px] ">
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/hospital-01.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Bệnh Viện Đa khoa Hà Đông</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]"> 2 P. Bế Văn Đàn, P. Quang Trung, Hà Đông, Hà Nội </p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/hospital-02.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Bệnh Viện Phụ Sản Hà Nội cơ sở 3</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]"> 10 Đ. Quang Trung, P. Quang Trung, Hà Đông, Hà Nội </p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/hospital-03.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Bệnh viện Đa khoa Quốc tế Thiên Đức</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]"> 207 Đ. Phùng Hưng, P. Phúc La, Hà Đông, Hà Nội</p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/hospital-04.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Bệnh Viện Da Liễu Hà Nội</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]"> 20 P. Bế Văn Đàn, P. Quang Trung, Hà Đông, Hà Nội 11550</p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="room-hospital grid justify-center mt-[51px]">
+            <div class="relative flex w-[1170px] mt-[14px] h-[80px]">
+                <div class="absolute left-0">
+                    <p class="font-semibold text-[24px] leading-[30px] text-[#000000]">Đặt khám phòng khám</p>
+                </div>
+                <div class="absolute right-0">
+                    <a href="./Doctor.html" class="bg-[#3B82F6] flex py-[14px] px-[17px] gap-[20px] rounded-[25px]">
+                        <p class="font-semibold text-[16px] leading-[20px] text-white">Xem thêm</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="grid grid-cols-12 gap-[30px] w-[1170px] ">
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/room-01.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Phòng Khám YHCT Thảo Nguyên</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]">69, Tổ Dân Phố Hoàng Văn Thụ, Phường Dương Nội</p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/room-02.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Phòng Khám Nam Khoa Hà Nội - Đông Phương</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]">496 Đ. Quang Trung, La Khê, Hà Đông, Hà Nội 10000</p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/room-03.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Phòng Khám Đông Y Lê Gia</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]">The Terra -An Hưng, La Khê, Hà Đông, Hà Nội 100000</p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+                <div class="grid col-span-3 bg-white justify-center rounded-[10px]">
+                    <div class="">
+                        <img src="./images/home/room-04.png" alt="">
+                    </div>
+                    <div class="px-[20px] mt-[10px]">
+                        <p class="font-semibold text-[20px] leading-[25px] text-simple">Điểm tiêm chủng bệnh viện đa khoa Hà Đông</p>
+                        <p class="font-light text-[15px] leading-[20px] mt-[11px]">2c P. Nguyễn Viết Xuân, P. Quang Trung, Hà Đông, Hà Nội</p>
+                        <div class="grid gap-[8px] mt-[20px]">
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 2-Thứ 6 : Cả ngày</p>
+                            <p class="font-light text-[15px] leading-[18px] text-black">Thứ 7-CN :Cả ngày </p>
+                        </div>
+                    </div>
+                    <a href="./Doctor.html" class="mt-[26px] rounded-[10px] flex items-center w-[270px] bg-[#3B82F6] py-[17px] px-[20px] gap-[100px]">
+                        <p class="font-[500px] text-[16px] text-white">Đặt khám ngay</p>
+                        <img class="w-[10px] h-[16px]" src="./images/home/Vector.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="question grid justify-center mt-[48px]">
+            <div class="grid gap-[6px]">
+                <p class="font-semibold text-[32px] leading-[38px] text-simple text-center">Tư vấn trực tuyến</p>
+                <p class="font-normal text-[16px] leading-[20px] text-[#7A7373] text-center">Khách quan </p>
+            </div>
+            <div class="w-[1170px] mt-[30px]">
+                <p class="font-semibold text-[24px] leading-[30px] text-simple">Bác sĩ hỏi đáp</p>
+                <div class="grid grid-cols-12 gap-[30px] mt-[58px]">
+                    <div class="grid col-span-4 bg-white">
+                        <img class="h-[192px] w-full" src="./images/home/question.png" alt="">
+                        <div class="grid justify-center py-[44px] rounded-[20px]">
+                            <p class="font-semibold text-[24px] leading-[30px] text-simple">Hỏi đáp cộng đồng</p>
+                        </div>
+                    </div>
+                    <div class="grid col-span-4 bg-white">
+                        <img class="h-[192px] w-full" src="./images/home/question.png" alt="">
+                        <div class="grid justify-center py-[44px] rounded-[20px]">
+                            <p class="font-semibold text-[24px] leading-[30px] text-simple">Hỏi đáp cộng đồng</p>
+                        </div>
+                    </div>
+                    <div class="grid col-span-4 bg-white">
+                        <img class="h-[192px] w-full" src="./images/home/question.png" alt="">
+                        <div class="grid justify-center py-[44px] rounded-[20px]">
+                            <p class="font-semibold text-[24px] leading-[30px] text-simple">Hỏi đáp cộng đồng</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="medicine grid mt-[138px]">
+            <div class="grid gap-[7px]">
+                <p class="font-semibold text-[32px] leading-[39px] text-simple text-center">Cửa hàng thuốc</p>
+                <p class="font-normal text-[16px] leading-[20px] text-center text-[#7A7373]">Cam kết chính hãng  </p>
+            </div>
+            <div class="bg-[#D9D9D9] grid justify-center pt-[51px] mt-[67px] pb-[70px]">
+                <div class="grid grid-cols-12 gap-[30px] w-[1170px] pb-[44px]">
+                    <div class="grid col-span-5">
+                        <div class="flex py-[8px] px-[15px] bg-white rounded-[27px] w-[420px]">
+                            <a href="/" class="bg-[#3B82F6] grid justify-center items-center px-[15px] py-[5px] rounded-[20px]">
+                                <p class="font-semibold text-white text-[20px] leading-[24px]">Thuốc</p>
+                            </a>
+                            <a href="/" class=" grid justify-center items-center px-[15px] py-[5px] rounded-[20px]">
+                                <p class="font-semibold text-black text-[20px] leading-[24px]">Dược liệu</p>
+                            </a>
+                            <a href="/" class=" grid justify-center items-center px-[15px] py-[5px] rounded-[20px]">
+                                <p class="font-semibold text-black text-[20px] leading-[24px]">Bệnh</p>
+                            </a>
+                            <a href="/" class=" grid justify-center items-center px-[15px] py-[5px] rounded-[20px]">
+                                <p class="font-semibold text-black text-[20px] leading-[24px]">Cơ thể</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid col-span-7">
+                        <div class="flex gap-[20px] bg-white rounded-[27px] items-center">
+                            <div class="ml-[20px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[17px] h-[17px]">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                </svg>
+                            </div>
+                            <input type="text" placeholder="Nhập tên thuốc..." class="font-normal text-[20px] leading-[24px] text-[#908181]">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12 gap-[30px] w-[1170px]">
+                    <div class="grid col-span-3">
+                        <img class="h-[162px] w-full" src="./images/home/medicine.png" alt="">
+                        <div class="px-[20px] bg-white pt-[10px] rounded-b-[20px]">
+                            <p class="font-medium text-[20px] leading-[25px] text-simple ">Diaprid là thuốc gì ?
+                                Công dụng và cách dùng và lưu ý khi sử dụng ?</p>
+                            <div class="grid justify-end mt-[25px] mb-[20px]">
+                                <p>Cập nhật :31/08/2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid col-span-3">
+                        <img class="h-[162px] w-full" src="./images/home/medicine.png" alt="">
+                        <div class="px-[20px] bg-white pt-[10px] rounded-b-[20px]">
+                            <p class="font-medium text-[20px] leading-[25px] text-simple ">Diaprid là thuốc gì ?
+                                Công dụng và cách dùng và lưu ý khi sử dụng ?</p>
+                            <div class="grid justify-end mt-[25px] mb-[20px]">
+                                <p>Cập nhật :31/08/2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid col-span-3">
+                        <img class="h-[162px] w-full" src="./images/home/medicine.png" alt="">
+                        <div class="px-[20px] bg-white pt-[10px] rounded-b-[20px]">
+                            <p class="font-medium text-[20px] leading-[25px] text-simple ">Diaprid là thuốc gì ?
+                                Công dụng và cách dùng và lưu ý khi sử dụng ?</p>
+                            <div class="grid justify-end mt-[25px] mb-[20px]">
+                                <p>Cập nhật :31/08/2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid col-span-3">
+                        <img class="h-[162px] w-full" src="./images/home/medicine.png" alt="">
+                        <div class="px-[20px] bg-white pt-[10px] rounded-b-[20px]">
+                            <p class="font-medium text-[20px] leading-[25px] text-simple ">Diaprid là thuốc gì ?
+                                Công dụng và cách dùng và lưu ý khi sử dụng ?</p>
+                            <div class="grid justify-end mt-[25px] mb-[20px]">
+                                <p>Cập nhật :31/08/2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news-medical grid justify-center mt-[76px]">
+            <div class="grid gap-[16px]">
+                <p class="font-semibold text-[32px] leading-[40px] text-simple text-center">Tin y tế</p>
+                <p class="font-normal text-[16px] leading-[20px] text-[#7A7373] text-center">Chính thống - Minh bạch - Trung lập  </p>
+            </div>
+            <div class="bg-[#EDEDED] w-[1170px] rounded-[10px] mt-[40px] pb-[28px]">
+                <div class="flex mt-[25px] px-[27px]  gap-[50px] justify-center">
+                    <img class="h-[175px]" src="./images/home/news-01.png" alt="">
+                    <div class="grid gap-[30px] pb-[50px]">
+                        <p class="font-medium text-[16px] text-simple leading-[20px]">Gia Lai: Huy động sức mạnh của nhân dân vào xây dựng <br>nền biên phòng toàn dân vững mạnh</p>
+                        <p class="font-light leading-[20px] text-[16px] text-simple">Ngày 27-2, tại thành phố Pleiku (Gia Lai), <br>Ủy ban nhân dân tỉnh Gia Lai tổ chức hội nghị sơ kết 5 năm thực hiện <br> Ngày hội Biên phòng toàn dân giai đoạn 2019-2024.</p>
+                    </div>
+                </div>
+                <div class="flex mt-[25px] px-[27px]  gap-[50px] justify-center">
+                    <img class="h-[175px]" src="./images/home/news-02.png" alt="">
+                    <div class="grid gap-[30px] pb-[50px]">
+                        <p class="font-medium text-[16px] text-simple leading-[20px]">Gia Lai: Ghi nhận ca tử vong do <br> bệnh dại đầu tiên từ đầu năm 2024 đến nay</p>
+                        <p class="font-light leading-[20px] text-[16px] text-simple">Chiều 25-2, Trung tâm Kiểm soát bệnh tật tỉnh Gia Lai cho biết, <br>trên địa bàn tỉnh vừa mới ghi nhận ca tử vong do bệnh dại. <br>Đây là ca tử vong đầu tiên do bệnh dại tính từ đầu năm 2024 đến nay.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid justify-center mt-[75px] ">
+            <div class="flex w-[1170px] bg-[#D9D9D9] pt-[41px] pl-[57px] rounded-[20px]">
+                <div class="w-[300px]">
+                    <p class="font-medium text-[24px] leading-[30px] text-simple" >Tạo nên một nguồn thông tin sức khoẻ đáng tin cậy, dễ đọc, dễ hiểu cho mọi đối tượng độc giả</p>
+                </div>
+                <div class="flex gap-[45px] ml-[70px] pb-[30px]">
+                    <div class="grid gap-[10px]">
+                        <img class="h-[120px] w-[120px]" src="./images/home/doctor-01.png" alt="">
+                        <p class="text-[14px] text-simple font-normal leading-[17px] text-center">Biên soạn bởi 
+                            <br>Bác sĩ và Dược sĩ</p>
+                    </div>
+                    <div class="grid gap-[10px]">
+                        <img class="h-[120px] w-[120px]" src="./images/home/doctor-02.png" alt="">
+                        <p class="text-[14px] text-simple font-normal leading-[17px] text-center">Chính sách biên tập <br> nội  dung minh bạch</p>
+                    </div>
+                    <div class="grid gap-[10px]">
+                        <img class="h-[120px] w-[120px]" src="./images/home/doctor-03.png" alt="">
+                        <p class="text-[14px] text-simple font-normal leading-[17px] text-center">Chính sách <br> quảng cáo</p>
+                    </div>
+                    <div class="grid gap-[10px]">
+                        <img class="h-[120px] w-[120px]" src="./images/home/doctor-04.png" alt="">
+                        <p class="text-[14px] text-simple font-normal leading-[17px] text-center">Chính sách <br> bảo mật</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid justify-center mt-[42px] pb-[40px]">
+            <div class="grid grid-cols-12 gap-[30px] w-[1170px]">
+                <div class="grid col-span-7 pb-[170px]">
+                    <p class="font-medium text-[48px] leading-[58px] text-simple">Tải ứng dụng Doctorcare</p>
+                    <div class="flex gap-[10px] items-center">
+                        <img class="w-[25px] h-[22px]" src="./images/home/dow-01.png" alt="">
+                        <p class="font-normal text-[24px] leading-[30px] text-simple">Đặt lịch khám bệnh và xét nghiệm</p>
+                    </div>
+                    <div class="flex gap-[10px] items-center">
+                        <img class="w-[25px] h-[22px]" src="./images/home/dow-02.png" alt="">
+                        <p class="font-normal text-[24px] leading-[30px] text-simple"></p>Tư vấn trực tuyến với Bác sĩ</p>
+                    </div>
+                    <div class="flex gap-[10px] items-center">
+                        <img class="w-[25px] h-[22px]" src="./images/home/dow-03.png" alt="">
+                        <p class="font-normal text-[24px] leading-[30px] text-simple"></p>Lưu trữ hồ sơ sức khỏe</p>
+                    </div>
+                    <div class="flex gap-[10px] items-center">
+                        <img class="w-[25px] h-[22px]" src="./images/home/dow-04.png" alt="">
+                        <p class="font-normal text-[24px] leading-[30px] text-simple"></p>Thanh toán dịch vụ trực tuyến</p>
+                    </div>
+                </div>
+                <div class="grid col-span-5 justify-end">
+                    <img class="h-[405px] w-[405px]" src="./images/home/dow-05.png" alt="">
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer  >
+        <div class="bg-[#001965] grid justify-center">
+            <div class="grid grid-cols-12 w-[1170px] gap-[30px]">
+                <div class="col-span-5 flex gap-[30px] mt-[69px]">
+                    <img class="h-[150px] w-[150px]" src="./images/home/logo.png" alt="">
+                    <div class="grid items-center">
+                        <p class="font-medium text-[24px] leading-[30px] text-white">Công ty TNHH Doctorcare <br> Việt Nam</p>
+                    </div>
+                </div>
+                <div class="grid col-span-3 mt-[69px] gap-[26px]">
+                    <p class="font-medium text-[24px] leading-[30px] text-white">Dịch vụ</p>
+                    <div class="grid gap-[10px] font-light text-[20px] leading-[25px] text-white">
+                        <p>Đặt khám Bác sĩ</p>
+                        <p>Đặt khám Bệnh viện</p>
+                        <p>Đặt khám  Phòng Khám</p>
+                    </div>
+                </div>
+                <div class="grid col-span-4 mt-[69px] gap-[26px]">
+                    <p class="font-medium text-[24px] leading-[30px] text-white">Hỗ trợ</p>
+                    <div class="grid gap-[10px] font-light text-[20px] leading-[25px] text-white">
+                        <p>Điều khoản sử dụng</p>
+                        <p>Chính sách bảo mật</p>
+                        <p>Chính sách giải quyết khiếu nại</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-[20px] grid gap-[20px]">
+                <p class="font-medium text-[24px] leading-[30px] text-white">Địa chỉ : <br> 
+                <span class="font-light text-[22px]">Yên Nghĩa ,Hà Đông ,Hà Nội</span> </p>
+                <p class="font-medium text-[24px] leading-[30px] text-white">Hotline: 
+                <span class="font-light text-[22px]">19008198</span> </p>
+            </div>
+            <div class="flex gap-[20px] mt-[30px]">
+                <img class="h-[25px] w-[25px]" src="./images/home/facebook.png" alt="">
+                <img class="h-[25px] w-[25px]" src="./images/home/twiter.png" alt="">
+                <img class="h-[25px] w-[25px]" src="./images/home/in.png" alt="">
+            </div>
+            <div class="border-t border-white my-6"></div>
+            <div class="pb-[40px]">
+                <p class="font-light text-[24px] leading-[30px] text-white">@Copyright <br>by N.V.Cuong & N.V.Tuyen</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+</html>
